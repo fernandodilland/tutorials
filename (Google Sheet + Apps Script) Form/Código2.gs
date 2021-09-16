@@ -53,7 +53,7 @@ function Buscar() {
 }
 
 // Actualizar
-function Update(){
+function Actualizar(){
   var hojaActiva = SpreadsheetApp.getActiveSpreadsheet();
   var formulario = hojaActiva.getSheetByName("Formulario"); // Nombre de hoja del formulario
   var datos = hojaActiva.getSheetByName("Datos"); // Nombre de hoja donde se almacenan datos
@@ -79,9 +79,9 @@ function Update(){
     }
   }
 }
-                      
+
 // Eliminar
-function Delete() {
+function Eliminar() {
   var hojaActiva = SpreadsheetApp.getActiveSpreadsheet();
   var formulario = hojaActiva.getSheetByName("Formulario"); // Nombre de hoja del formulario
   var datos = hojaActiva.getSheetByName("Datos"); // Nombre de hoja donde se almacenan datos
